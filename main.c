@@ -55,7 +55,8 @@ int main(int argc, char *argv[]) {
             break;
 
         case 'h':
-            printf("Usage: avmsed [-m mode] [initial] [final] [file]\n");
+            printf("Usage: avmsed [-s] [-m mode] [initial] [final] [file]\n");
+            printf("-s  threading\n");
             printf("-m  mode\n");
             printf("	\"substitution\" or \"translation\". Default: "
                    "substitution.\n");
